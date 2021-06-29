@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './component/App.jsx';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+// reactDom.render(
+//   <div>
+// <div className="heading">
+// <h1 >emojipedia</h1>
+// </div>
+// <div className="boxs">
+//     <div className="top_1">
+//     <p className="emo_1">💪</p>
+//     <p className="emo_2">Tense Biceps</p>
+//     <p className="emo_3">"An arm flexing to show its biceps muscle. Represents strength, or working out."</p>
+//     </div>
+//     <div className="top_2">
+//       <p className="emo_1">🙏</p>
+//       <p className="emo_2">Person With Folded Hands</p>
+//       <p className="emo_3">"Two hands placed firmly together, meaning please or thank you in Japanese culture. A common alternative use for this emoji is for prayer, using the same gesture as praying hands."</p>
+//     </div>
+//     <div className="top_3">
+//       <p className="emo_1">🤣</p>
+//       <p className="emo_2">Roaling On the Floor,Laughing</p>
+//       <p className="emo_3">"A yellow face with a big grin and scrunched, X-shaped eyes, tilted on its side as if rolling on the floor laughing. Sheds two tears and tilts right on most platforms."</p>
+//     </div>
+// </div>
+// </div>,
+    
+//     document.getElementById("root"));
